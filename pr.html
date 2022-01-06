@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>welcome to this jquery tutorial</h1>
+    <p id="red">this is red in colour Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fuga voluptatem
+        deserunt perferendis facere repudiandae in ipsum eius rem obcaecati, quidem esse odio aliquam, ea officia at.
+        Maiores, quod possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis iste maiores
+        soluta nostrum earum vitae. Nobis quod dolor tempore veniam consequatur soluta eos, atque delectus consectetur
+        libero ipsam eveniet!</p>
+    <p class="green">this is green in colour </p>
+    <p class="blue">this is blue in colour </p>
+    <p class="yellow">this is yellow in colour </p>
+
+    <button id="toggle">toggle button</button>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // $("selector").action(); - syntax of jquery
+            // $(".red").click(function(){
+            //     console.log("clicked on red tag")
+            // });
+
+            // $(".green").dblclick(function(){
+            //     console.log("clicked on green tag")
+            // });
+
+            // $(".blue").mouseenter(function(){
+            //     console.log("clicked on blue tag")
+            // });
+
+            // $(".yellow").mousedown(function(){
+            //     console.log("clicked on yellow tag")
+            // });
+
+            // $(".red").hide(5000);
+
+            // $(".blue").on(
+            //     {
+            //         click : function(){
+            //             console.log("clicked on blue by using on ",this);
+            //         },
+            //         dblclick : function(){
+            //             console.log("dbl clicked on blue ",this);
+            //         }
+            //     });
+
+            // $(".red").on({
+            //     click : function(){
+            //         console.log("clicked on red",this)
+            //     },
+            //     dblclick : function(){
+            //         console.log("double clicked")
+            //     }
+
+
+            // });
+
+            // $("#toggle").click(function(){
+            //     $(".yellow").fadeOut(5000,function(){
+            //         console.log("hidden",this);
+            //     });
+
+            // });
+
+            // $("#toggle").click(function () {
+            //     $(".yellow").fadeToggle(5000, function () {
+            //         console.log("vice versa", this);
+            //     });
+
+            // });
+
+            // $(".red").slideUp(5000);
+
+            //    $(".red").animate({
+            //        opacity : 0.3 ,
+            //        width : "350px" ,
+            //        height : "150px"
+            //    },12000);
+
+            $("#red").addClass("myclass");
+
+
+
+        })
+
+    </script>
+</body>
+
+</html>
